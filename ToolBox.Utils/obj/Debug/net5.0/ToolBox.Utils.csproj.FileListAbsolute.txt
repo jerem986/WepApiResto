@@ -1,0 +1,11 @@
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\bin\Debug\net5.0\ToolBox.Utils.deps.json
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\bin\Debug\net5.0\ToolBox.Utils.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\bin\Debug\net5.0\ref\ToolBox.Utils.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\bin\Debug\net5.0\ToolBox.Utils.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.AssemblyInfoInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.AssemblyInfo.cs
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.csproj.CoreCompileInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ref\ToolBox.Utils.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.pdb

@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\RestoAPP.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\RestoAPP.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\RestoAPP.API.csproj",
+        "projectName": "RestoAPP.API",
+        "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\RestoAPP.API.csproj",
+        "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj": {
+                "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj"
+              },
+              "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj": {
+                "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj"
+              },
+              "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj": {
+                "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj"
+              },
+              "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj": {
+                "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj",
+        "projectName": "RestoAPP.DAL",
+        "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj",
+        "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj",
+        "projectName": "ToolBox.AutoMapper",
+        "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj",
+        "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj",
+        "projectName": "ToolBox.Security",
+        "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj",
+        "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj": {
+                "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.52.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj",
+        "projectName": "ToolBox.Utils",
+        "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj",
+        "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

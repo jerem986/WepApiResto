@@ -1,0 +1,47 @@
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.deps.json
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.pdb
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.AssemblyReference.cache
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfoInputs.cache
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfo.cs
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.CoreCompileInputs.cache
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\Nouveau dossier\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.deps.json
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.pdb
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfo.cs
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\Production\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.deps.json
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.pdb
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.AssemblyReference.cache
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfoInputs.cache
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfo.cs
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.CoreCompileInputs.cache
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\15.Entity Framework\PokémonWebApi\PokémonWebApi\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.deps.json
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\bin\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfoInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfo.cs
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.CoreCompileInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb

@@ -1,0 +1,15 @@
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\bin\Debug\net5.0\ToolBox.Security.deps.json
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\bin\Debug\net5.0\ToolBox.Security.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\bin\Debug\net5.0\ref\ToolBox.Security.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\bin\Debug\net5.0\ToolBox.Security.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\bin\Debug\net5.0\ToolBox.Utils.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\bin\Debug\net5.0\ToolBox.Utils.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.csproj.AssemblyReference.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.AssemblyInfoInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.AssemblyInfo.cs
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.csproj.CoreCompileInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.csproj.CopyComplete
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ref\ToolBox.Security.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Security\obj\Debug\net5.0\ToolBox.Security.pdb

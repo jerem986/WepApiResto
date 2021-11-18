@@ -1,0 +1,15 @@
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\bin\Debug\net5.0\RestoAPP.DAL.deps.json
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\bin\Debug\net5.0\RestoAPP.DAL.runtimeconfig.json
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\bin\Debug\net5.0\RestoAPP.DAL.runtimeconfig.dev.json
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\bin\Debug\net5.0\RestoAPP.DAL.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\bin\Debug\net5.0\ref\RestoAPP.DAL.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\bin\Debug\net5.0\RestoAPP.DAL.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.AssemblyInfoInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.AssemblyInfo.cs
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.csproj.CoreCompileInputs.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\ref\RestoAPP.DAL.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.genruntimeconfig.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.DAL\obj\Debug\net5.0\RestoAPP.DAL.csproj.AssemblyReference.cache
