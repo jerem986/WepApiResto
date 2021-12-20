@@ -69,3 +69,9 @@ D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\obj\Debug\ne
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\obj\Debug\net5.0\ref\RestoAPP.API.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\obj\Debug\net5.0\RestoAPP.API.pdb
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\obj\Debug\net5.0\RestoAPP.API.genruntimeconfig.cache
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\RestoAPP.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

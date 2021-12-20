@@ -45,3 +45,4 @@ D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\De
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.AssemblyReference.cache

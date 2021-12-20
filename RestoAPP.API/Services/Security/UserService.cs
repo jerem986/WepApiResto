@@ -1,4 +1,5 @@
-﻿using RestoAPP.API.DTO.Client;
+﻿using Google.Apis.Auth;
+using RestoAPP.API.DTO.Client;
 using RestoAPP.API.Utils;
 using RestoAPP.DAL;
 using RestoAPP.DAL.Entities;
@@ -6,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ToolBox.Security.Services;
 
 namespace RestoAPP.API.Services.Security
 {
@@ -14,13 +16,15 @@ namespace RestoAPP.API.Services.Security
         private readonly HashService _hashService;
         private readonly RestoDbContext dc;
         private readonly UserRepository _repo;
+        private readonly JwtService _jwtService;
 
-            public UserService(HashService hashService, RestoDbContext dc, UserRepository repo)
+        public UserService(HashService hashService, RestoDbContext dc, UserRepository repo, JwtService jwtService)
         {
-            this._hashService = hashService;
+            _hashService = hashService;
             this.dc = dc;
-            this._repo = repo;
-            }
+            _repo = repo;
+            _jwtService = jwtService;
+        }
 
         public int Register(ClientDTO client)
         {
@@ -61,6 +65,52 @@ namespace RestoAPP.API.Services.Security
                 return clientTemp;
             }
             return null;
+        }
+
+        public async Task<string> LoginWithGoogle(string token)
+        {
+            GoogleJsonWebSignature.Payload payload = await _jwtService.VerifyGoogleToken(token);
+
+            if(payload == null)
+            {
+                throw new Exception("Invalid google payload");
+            }
+            Client client = _repo.GetByEmail(payload.Email);
+            Client tempClient = null; 
+
+            if(client == null)
+            {
+                string salt = Guid.NewGuid().ToString();
+                string hashpassword = _hashService.Hash(Guid.NewGuid().ToString().Substring(0, 8), salt);
+                tempClient = new Client
+                {
+                    Email = payload.Email,
+                    Name = payload.Name,
+                    UserLevel = "USER",
+                    PasswordClient = hashpassword,
+                    Salt = salt,
+                };
+                dc.Add(tempClient);
+                dc.SaveChanges();
+            }
+            else
+            {
+                tempClient = new Client
+                {
+                    Email = client.Email,
+                    Name = client.Name,
+                    UserLevel = client.UserLevel,
+                    Id = client.Id,
+                };
+            }
+            ClientDTO clientReturn = new ClientDTO
+            {
+                Email = tempClient.Email,
+                Name = tempClient.Name,
+                UserLevel = tempClient.UserLevel,
+                Id = tempClient.Id
+            };
+            return _jwtService.CreateToken(clientReturn);
         }
     }
 }

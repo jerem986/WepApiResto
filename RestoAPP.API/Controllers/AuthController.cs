@@ -63,5 +63,16 @@ namespace RestoAPP.API.Controllers
                 return Problem(ex.Message);
             }
         }
+        public IActionResult OauthLogin([FromBody] TokenDTO token)
+        {
+            try
+            {
+                return Ok(_userService.LoginWithGoogle(token.Token));
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
     }
 }

@@ -10,8 +10,6 @@ using ToolBox.Security.Services;
 
 namespace RestoAPP.API.Attribut
 {
-    //probleme de pass d'autorisation ??
-    //connection ok sur chrome/brave mais pas sur mozilla????? 
     public class ApiAuthorizationAttribute : Attribute
     {
         private string[] _roles { get; set; }
