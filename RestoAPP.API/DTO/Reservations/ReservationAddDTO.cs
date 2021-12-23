@@ -12,13 +12,10 @@ namespace RestoAPP.API.DTO.Reservations
         public int NbPers { get; set; }
         [Required]
         public int IdClient { get; set; }
-        public int IdTable { get; set; }
         [Required]
         public DateTime DateDeRes { get; set; }
         [Required]
         [MaxLength(50)]
-        public string Horaire { get; set; }
-        [Required]
-        public int IdValidation { get; set; }
+        public int Horaire { get; set; }
     }
 }

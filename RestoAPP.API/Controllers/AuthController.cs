@@ -63,6 +63,7 @@ namespace RestoAPP.API.Controllers
                 return Problem(ex.Message);
             }
         }
+        [HttpPost("OauthGoogle")]
         public IActionResult OauthLogin([FromBody] TokenDTO token)
         {
             try

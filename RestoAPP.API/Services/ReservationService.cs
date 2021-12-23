@@ -20,10 +20,20 @@ namespace RestoAPP.API.Services
             this.dc = dc;
         }
 
-        public void AddReservation(ReservationAddDTO reservation)
+        public int AddReservation(ReservationAddDTO reservation)
         {
-            dc.Reservation.Add(reservation.MapTo<Reservation>());
+            if (reservation == null) throw new ArgumentNullException();
+            Reservation tempReservation = new Reservation
+            {
+                ValidationStatuts = DAL.Enums.ValidationStatus.Pending,
+                IdClient = reservation.IdClient,
+                HeureReservation = reservation.Horaire,
+                NbPers = reservation.NbPers,
+                DateDeRes = reservation.DateDeRes,
+            };
+            dc.Reservation.Add(tempReservation);
             dc.SaveChanges();
+            return tempReservation.Id;
         }
 
         public IEnumerable<ReservationDetailDTO> GetReservation(DateTime start, DateTime end)// intégration récupération des réservation en y ajoutant des critere
@@ -33,7 +43,7 @@ namespace RestoAPP.API.Services
                     .Select(r => new ReservationDetailDTO { 
                         Id = r.Id,
                         DateDeRes = r.DateDeRes,
-                        Horaire = r.Horaire,
+                        Horaire = r.HeureReservation,
                         IdClient = r.IdClient,
                         NbPers = r.NbPers,
                         Client = new ClientDetailsDTO { 

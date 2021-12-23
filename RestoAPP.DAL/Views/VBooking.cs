@@ -9,7 +9,7 @@ namespace RestoAPP.DAL.Views
     public class VBooking //class de la vue
     {
         public DateTime DateDeRes { get; set; }
-        public bool IsNoon { get; set; }
+        public int IsNoon { get; set; }
         public int Total { get; set; }
     }
 }

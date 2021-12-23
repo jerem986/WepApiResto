@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RestoAPP.DAL;
 
 namespace RestoAPP.DAL.Migrations
 {
     [DbContext(typeof(RestoDbContext))]
-    partial class RestoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211221155209_updateVBooking")]
+    partial class updateVBooking
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -117,11 +119,19 @@ namespace RestoAPP.DAL.Migrations
                     b.Property<int>("HeureReservation")
                         .HasColumnType("int");
 
+                    b.Property<string>("Horaire")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("IdClient")
                         .HasColumnType("int");
 
                     b.Property<int>("NbPers")
                         .HasColumnType("int");
+
+                    b.Property<string>("ServiceReservation")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("ValidationStatuts")
                         .HasColumnType("int");

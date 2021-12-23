@@ -14,10 +14,10 @@ namespace RestoAPP.DAL.Configurations
         public void Configure(EntityTypeBuilder<Reservation> builder)
         {
             builder.Property(res => res.NbPers).IsRequired();
-            builder.Property(res => res.ServiceReservation).IsRequired().HasMaxLength(50);
             builder.Property(res => res.DateDeRes).HasColumnType("Date").IsRequired();
             builder.Property(res => res.IdClient).IsRequired();
             builder.Property(res => res.ValidationStatuts).IsRequired();
+            builder.Property(res => res.HeureReservation).IsRequired();
 
 
             //builder.HasOne(res => res.ValidationStatuts).WithMany(res => res.Reservations).OnDelete(DeleteBehavior.SetNull).HasForeignKey(p => p.IdValidationStatus);

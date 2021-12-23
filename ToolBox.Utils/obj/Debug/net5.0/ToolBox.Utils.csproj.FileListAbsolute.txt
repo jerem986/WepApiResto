@@ -9,3 +9,4 @@ D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\n
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ref\ToolBox.Utils.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.pdb
+D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.csproj.AssemblyReference.cache

@@ -22,8 +22,8 @@ namespace RestoAPP.API.Controllers
         [HttpPost]
         public IActionResult AddReservation(ReservationAddDTO reservation)
         {
-            _reservationService.AddReservation(reservation);
-            return NoContent();
+            int tempId = _reservationService.AddReservation(reservation);
+            return Ok(tempId);
         }
 
         [HttpDelete("{id}")]
@@ -38,7 +38,7 @@ namespace RestoAPP.API.Controllers
             return Ok(_reservationService.Edit(reservation));
         }
 
-        [HttpGet]
+        [HttpGet("ReservationByMonth")]
         public IActionResult GetMonth(int years, int month)
         {
             return Ok(_reservationService.GetByMonth(month, years));

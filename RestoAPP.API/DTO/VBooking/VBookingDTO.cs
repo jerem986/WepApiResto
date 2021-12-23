@@ -8,7 +8,7 @@ namespace RestoAPP.API.DTO.VBooking
     public class VBookingDTO
     {
         public DateTime DateDeRes { get; set; }
-        public bool IsNoon { get; set; }
+        public int IsNoon { get; set; }
         public int Total { get; set; }
     }
 }

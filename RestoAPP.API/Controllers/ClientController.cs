@@ -20,13 +20,13 @@ namespace RestoAPP.API.Controllers
             _clientService = clientService;
         }
       
-        [HttpPost]
-        public IActionResult AddClient(ClientAddDTO client)
-        {
-            if (client == null) return NotFound();
-            _clientService.AddClient(client);
-            return NoContent();
-        }
+        //[HttpPost]
+        //public IActionResult AddClient(ClientAddDTO client)
+        //{
+        //    if (client == null) return NotFound();
+        //    _clientService.AddClient(client);
+        //    return NoContent();
+        //}
         [HttpGet]
         public IActionResult GetClient()
         {

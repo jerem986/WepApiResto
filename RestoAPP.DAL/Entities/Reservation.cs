@@ -14,11 +14,7 @@ namespace RestoAPP.DAL.Entities
         public int IdClient { get; set; }
         public int HeureReservation { get; set; }
         public DateTime DateDeRes { get; set; }
-        public string Horaire { get; set; }
-        public string ServiceReservation { get; set; }
-
         public Client Client { get; set; }
-
         public ValidationStatus ValidationStatuts { get; set; }
 
     }

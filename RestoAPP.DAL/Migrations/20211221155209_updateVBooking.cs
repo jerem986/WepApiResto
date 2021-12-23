@@ -2,7 +2,7 @@
 
 namespace RestoAPP.DAL.Migrations
 {
-    public partial class VBooking : Migration //on crée une migration vide avec un simple add-migration dans la console
+    public partial class updateVBooking : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,9 +14,10 @@ namespace RestoAPP.DAL.Migrations
 	                *, 
 	                case when HeureReservation < 5 then 1 else 0 end IsNoon
                 FROM Reservation) r
-
+                WHERE ValidationStatuts = 0 OR ValidationStatuts = 1
                 GROUP BY r.DateDeRes, r.IsNoon)"; //on enregistre la requete sql de génération de vue dans un string
             migrationBuilder.Sql(QueryView); //on l'ajoute a la migration et on fait l'update-database
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

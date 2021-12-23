@@ -10,8 +10,8 @@ using RestoAPP.DAL;
 namespace RestoAPP.DAL.Migrations
 {
     [DbContext(typeof(RestoDbContext))]
-    [Migration("20211108152944_VBooking")]
-    partial class VBooking
+    [Migration("20211223075305_updateReservation")]
+    partial class updateReservation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -119,19 +119,11 @@ namespace RestoAPP.DAL.Migrations
                     b.Property<int>("HeureReservation")
                         .HasColumnType("int");
 
-                    b.Property<string>("Horaire")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("IdClient")
                         .HasColumnType("int");
 
                     b.Property<int>("NbPers")
                         .HasColumnType("int");
-
-                    b.Property<string>("ServiceReservation")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("ValidationStatuts")
                         .HasColumnType("int");
@@ -141,6 +133,20 @@ namespace RestoAPP.DAL.Migrations
                     b.HasIndex("IdClient");
 
                     b.ToTable("Reservation");
+                });
+
+            modelBuilder.Entity("RestoAPP.DAL.Views.VBooking", b =>
+                {
+                    b.Property<DateTime>("DateDeRes")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("IsNoon")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Total")
+                        .HasColumnType("int");
+
+                    b.ToView("VBooking");
                 });
 
             modelBuilder.Entity("RestoAPP.DAL.Entities.Repas", b =>

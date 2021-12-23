@@ -13,7 +13,7 @@ namespace RestoAPP.API.DTO.Reservations
         public int IdClient { get; set; }
         public int? IdTable { get; set; }
         public DateTime DateDeRes { get; set; }
-        public string Horaire { get; set; }
+        public int Horaire { get; set; }
         public ClientDetailsDTO Client { get; set; }
 
     }
