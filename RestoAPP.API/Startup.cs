@@ -14,6 +14,7 @@ using RestoAPP.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using ToolBox.Security.Configuration;
 using ToolBox.Security.DependencyInjection.Extensions;
@@ -77,6 +78,12 @@ namespace RestoAPP.API
             services.AddScoped<HashService>();
             services.AddScoped<UserRepository>();
             services.AddScoped<CategoryService>();
+            #endregion
+
+            #region Service Mail
+            services.AddScoped<MailService>();
+            services.AddSingleton(Configuration.GetSection("SMTP").Get<MailConfig>());
+            services.AddScoped<SmtpClient>();
             #endregion
         }
 

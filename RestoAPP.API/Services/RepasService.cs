@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RestoAPP.API.DTO;
+using RestoAPP.API.DTO.Repas;
 using RestoAPP.DAL;
 using RestoAPP.DAL.Entities;
 using System;
@@ -29,6 +30,14 @@ namespace RestoAPP.API.Services
                 Prix = repas.Prix,
                 Description = repas.Description
             };
+            if(tempRepas.CategoryId == 9)
+            {
+                IEnumerable<RepasDetailsDTO> listRepas = GetByCategory(9);
+                if( listRepas.Count() >= 7)
+                {
+                    throw new Exception("Les 7 repas sont déjà établi");
+                }
+            }
             dc.Repas.Add(tempRepas);
             dc.SaveChanges();
             return tempRepas.Id;
@@ -38,7 +47,7 @@ namespace RestoAPP.API.Services
         {
             IEnumerable<RepasDetailsDTO> repas = dc.Repas.Include(c => c.Category).Select(m => new RepasDetailsDTO
             {
-                categoryId = m.CategoryId,
+                CategoryId = m.CategoryId,
                 categoryType = m.Category.Type,
                 Description = m.Description,
                 Plat = m.Plat,
@@ -71,7 +80,7 @@ namespace RestoAPP.API.Services
             return true;
         }
 
-        public bool Edit(RepasDetailsDTO repas)
+        public bool Edit(RepasEditDTO repas)
         {
             try
             {
@@ -88,7 +97,7 @@ namespace RestoAPP.API.Services
                 Repas tempRepas = new Repas
                 {
                     Id = repas.Id,
-                    CategoryId = repas.categoryId,
+                    CategoryId = repas.CategoryId,
                     Plat = repas.Plat,
                     Prix = repas.Prix,
                     Description = repas.Description

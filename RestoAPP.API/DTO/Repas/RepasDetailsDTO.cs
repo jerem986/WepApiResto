@@ -14,7 +14,7 @@ namespace RestoAPP.API.DTO
         public string Description { get; set; }
         public string categoryType { get; set; } //nom de la categorie récupérée grace a l'id --> join
         public int Prix { get; set; }
-        public int categoryId { get; set; }
+        public int CategoryId { get; set; }
         //public CategoryDetailsDTO category { get; set; }
     }
 }

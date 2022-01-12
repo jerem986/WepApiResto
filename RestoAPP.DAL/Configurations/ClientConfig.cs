@@ -15,7 +15,7 @@ namespace RestoAPP.DAL.Configurations
         {
             builder.Property(c => c.Name).IsRequired().HasMaxLength(255);
             builder.Property(c => c.UserLevel).IsRequired().HasMaxLength(50);
-            builder.Property(c => c.Tel).IsRequired().HasMaxLength(50);
+            builder.Property(c => c.Tel).HasMaxLength(50);
         }
 
     }

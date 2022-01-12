@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestoAPP.API.Attribut;
 using RestoAPP.API.DTO;
+using RestoAPP.API.DTO.Repas;
 using RestoAPP.API.Services;
 using System;
 using System.Collections.Generic;
@@ -71,7 +72,7 @@ namespace RestoAPP.API.Controllers
         }
 
         [HttpPut]
-        public IActionResult Edit(RepasDetailsDTO repas)
+        public IActionResult Edit(RepasEditDTO repas)
         {
             try
             {

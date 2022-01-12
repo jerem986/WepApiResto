@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Transactions;
 using ToolBox.Security.Services;
 
 namespace RestoAPP.API.Services.Security
@@ -75,17 +76,15 @@ namespace RestoAPP.API.Services.Security
             {
                 throw new Exception("Invalid google payload");
             }
-            Client client = _repo.GetByEmail(payload.Email);
-            Client tempClient = null; 
-
-            if(client == null)
+            Client tempClient = _repo.GetByEmail(payload.Email);
+            if(tempClient == null)
             {
                 string salt = Guid.NewGuid().ToString();
                 string hashpassword = _hashService.Hash(Guid.NewGuid().ToString().Substring(0, 8), salt);
                 tempClient = new Client
                 {
                     Email = payload.Email,
-                    Name = payload.Name,
+                    Name = payload.GivenName,
                     UserLevel = "USER",
                     PasswordClient = hashpassword,
                     Salt = salt,
@@ -93,16 +92,7 @@ namespace RestoAPP.API.Services.Security
                 dc.Add(tempClient);
                 dc.SaveChanges();
             }
-            else
-            {
-                tempClient = new Client
-                {
-                    Email = client.Email,
-                    Name = client.Name,
-                    UserLevel = client.UserLevel,
-                    Id = client.Id,
-                };
-            }
+
             ClientDTO clientReturn = new ClientDTO
             {
                 Email = tempClient.Email,
@@ -112,5 +102,6 @@ namespace RestoAPP.API.Services.Security
             };
             return _jwtService.CreateToken(clientReturn);
         }
+
     }
 }

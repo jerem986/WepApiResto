@@ -64,11 +64,14 @@ namespace RestoAPP.API.Controllers
             }
         }
         [HttpPost("OauthGoogle")]
-        public IActionResult OauthLogin([FromBody] TokenDTO token)
+        public async Task<IActionResult> OauthLogin([FromBody] TokenDTO token)
         {
             try
             {
-                return Ok(_userService.LoginWithGoogle(token.Token));
+                return Ok(new LoginTokenDTO
+                {
+                    Token = await _userService.LoginWithGoogle(token.Token)
+                });
             }
             catch(Exception ex)
             {

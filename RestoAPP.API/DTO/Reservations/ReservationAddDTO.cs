@@ -15,7 +15,6 @@ namespace RestoAPP.API.DTO.Reservations
         [Required]
         public DateTime DateDeRes { get; set; }
         [Required]
-        [MaxLength(50)]
         public int Horaire { get; set; }
     }
 }

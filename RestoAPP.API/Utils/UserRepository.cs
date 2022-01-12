@@ -12,16 +12,17 @@ namespace RestoAPP.API.Utils
 {
     public class UserRepository   // class pour méthode de vérifiaction si l'email est deja enregistré dans la db
     {
-        private readonly RestoDbContext db;
+        private readonly RestoDbContext dc;
 
-        public UserRepository(RestoDbContext db)
+
+        public UserRepository(RestoDbContext dc)
         {
-            this.db = db;
+            this.dc = dc;
         }
 
         public Client GetByEmail(string email)
         {
-            return db.Client.SingleOrDefault(u => u.Email == email);
+            return dc.Client.SingleOrDefault(u => u.Email == email);
         }
     }
 }
