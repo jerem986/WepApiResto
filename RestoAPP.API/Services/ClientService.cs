@@ -20,13 +20,6 @@ namespace RestoAPP.API.Services
             this.dc = dc;
         }
 
-        public void AddClient(ClientAddDTO client)
-        {
-            if (client == null) throw new ArgumentNullException();
-            dc.Client.Add(client.MapTo<Client>());
-            dc.SaveChanges();
-        }
-
         public IEnumerable<ClientDetailsDTO> GetClient()
         {
             return dc.Client.MapToList<ClientDetailsDTO>();
@@ -34,27 +27,9 @@ namespace RestoAPP.API.Services
 
         public ClientDetailsDTO GetClientById(int id)
         {
-            if (id < 1) return null;
             Client client = dc.Client.FirstOrDefault(c => c.Id == id);
-            if (client == null) return null;
+            if (client == null) throw new ArgumentNullException();
             return client.MapTo<ClientDetailsDTO>();
-        }
-
-        public bool DeleteById(int id)
-        {
-            if (id < 1) return false;
-            try
-            {
-                Client client = dc.Client.FirstOrDefault(c => c.Id == id);
-                if (client == null) return false;
-                dc.Client.Remove(client);
-                dc.SaveChanges();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
         }
 
         public bool Edit(ClientDetailsDTO client)

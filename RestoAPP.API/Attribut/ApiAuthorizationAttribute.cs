@@ -30,48 +30,5 @@ namespace RestoAPP.API.Attribut
             context.Result = new UnauthorizedResult(); //refus de rentrer dans le controller
         }  
         
-        
-        //VERSION FURFOOZ
-        //private string[] roles;
-
-        //public ApiAuthorizationAttribute(params string[] roles)
-        //{
-        //    this.roles = roles;
-        //}
-
-        //public void OnAuthorization(AuthorizationFilterContext context)
-        //{
-        //    context.HttpContext.Request.Headers.TryGetValue("Authorization", out StringValues values);
-
-        //    string token = values.FirstOrDefault(h => h.StartsWith("Bearer "))?.Replace("Bearer ", "");
-
-        //    if (token == null)
-        //    {
-        //        context.Result = new UnauthorizedResult();
-        //    }
-        //    else
-        //    {
-        //        JwtService service = (JwtService)context.HttpContext.RequestServices.GetService(typeof(JwtService));
-        //        ClaimsPrincipal claims = service.Decode(token);
-        //        if (claims == null)
-        //        {
-        //            context.Result = new UnauthorizedResult();
-        //        }
-        //        else
-        //        {
-        //            foreach (string role in roles)
-        //            {
-        //                if (claims.IsInRole(role))
-        //                {
-        //                    context.HttpContext.User = claims;
-        //                    return;
-        //                }
-        //            }
-        //            context.Result = new UnauthorizedResult();
-        //        }
-        //    }
-
-        //}
-
     }
 }

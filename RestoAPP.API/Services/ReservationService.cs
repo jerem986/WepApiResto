@@ -42,32 +42,27 @@ namespace RestoAPP.API.Services
 
         public IEnumerable<ReservationDetailDTO> GetReservation(DateTime start, DateTime end)// intégration récupération des réservation en y ajoutant des critere
         {
-
-                return dc.Reservation.Where(r => r.DateDeRes >= start && r.DateDeRes <= end)
-                    .Select(r => new ReservationDetailDTO { 
-                        Id = r.Id,
-                        DateDeRes = r.DateDeRes,
-                        Horaire = r.HeureReservation,
-                        IdClient = r.IdClient,
-                        NbPers = r.NbPers,
-                        //Client = new ClientDetailsDTO { 
-                        //    Id = r.Client.Id
-                        //},
-                        
-                    });
+            return dc.Reservation.Where(r => r.DateDeRes >= start && r.DateDeRes <= end)
+                .Select(r => new ReservationDetailDTO { 
+                    Id = r.Id,
+                    DateDeRes = r.DateDeRes,
+                    Horaire = r.HeureReservation,
+                    IdClient = r.IdClient,
+                    NbPers = r.NbPers,
+                });
 
             // mapping complet a la main et voir pour ajouter les emplacements
 
         }
 
 
-    public bool DeleteById(int id)
+    public void DeleteById(int id)
         {
             Reservation reservation = dc.Reservation.FirstOrDefault(r => r.Id == id);
-            if (reservation == null) return false;
+            if (reservation == null)
+                throw new KeyNotFoundException();
             dc.Reservation.Remove(reservation);
             dc.SaveChanges();
-            return true;
         }
         public bool Edit(ReservationDetailDTO reservation)
         {
@@ -87,6 +82,8 @@ namespace RestoAPP.API.Services
                 //dc.SaveChanges();
 
                 Reservation tempRes = dc.Reservation.Find(reservation.Id);
+                if (tempRes == null)
+                    throw new KeyNotFoundException();
                 tempRes.HeureReservation = reservation.Horaire;
                 tempRes.DateDeRes = reservation.DateDeRes;
                 tempRes.NbPers = reservation.NbPers;
@@ -106,7 +103,7 @@ namespace RestoAPP.API.Services
             return dc.VBooking.Where(x => x.DateDeRes.Year == years && x.DateDeRes.Month == month).MapToList<VBookingDTO>();
         }
 
-        public IEnumerable<ReservationDetailDTO> GetReservationByID(int id)
+        public IEnumerable<ReservationDetailDTO> GetReservationByIDClient(int id)
         {
             return dc.Reservation.Where(x => x.IdClient == id ).MapToList<ReservationDetailDTO>();
         }

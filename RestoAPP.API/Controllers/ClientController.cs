@@ -11,6 +11,7 @@ namespace RestoAPP.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiAuthorization("ADMIN")]
     public class ClientController : ControllerBase
     {
         private readonly ClientService _clientService;
@@ -19,32 +20,20 @@ namespace RestoAPP.API.Controllers
         {
             _clientService = clientService;
         }
-      
-        //[HttpPost]
-        //public IActionResult AddClient(ClientAddDTO client)
-        //{
-        //    if (client == null) return NotFound();
-        //    _clientService.AddClient(client);
-        //    return NoContent();
-        //}
+
         [HttpGet]
         public IActionResult GetClient()
         {
             return Ok(_clientService.GetClient());
         }
+
         [HttpGet("{id}")]
         public IActionResult GetClientById(int id)
         {
-            if (id < 1) return NotFound();
+            if (id < 1) return Problem("Id pas valide");
             return Ok(_clientService.GetClientById(id));
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult DeleteClient(int id)
-        {
-            if (id < 1) return NotFound();
-            return Ok(_clientService.DeleteById(id));
-        }
         [HttpPut]
         public IActionResult UpdateClient(ClientDetailsDTO client)
         {

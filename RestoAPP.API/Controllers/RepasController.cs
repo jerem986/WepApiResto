@@ -49,21 +49,6 @@ namespace RestoAPP.API.Controllers
             }
         }
 
-        //[HttpGet("{id}")]
-        //public IActionResult GetRepasById(int id)
-        //{
-        //    if (id < 1) return NotFound();
-        //    try
-        //    {
-        //        RepasDetailsDTO repas = _repasService.GetRepasById(id);
-        //        return Ok(repas);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Problem(ex.Message);
-        //    }
-        //}
-
         [HttpDelete("{id}")]
         public IActionResult DeleteById(int id)
         {
