@@ -51,7 +51,7 @@ namespace RestoAPP.API.Services
                     NbPers = r.NbPers,
                 });
 
-            // mapping complet a la main et voir pour ajouter les emplacements
+            // mapping complet a la main
 
         }
 

@@ -10,3 +10,15 @@ D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\n
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ref\ToolBox.Utils.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.pdb
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\bin\Debug\net5.0\ToolBox.Utils.deps.json
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\bin\Debug\net5.0\ToolBox.Utils.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\bin\Debug\net5.0\ref\ToolBox.Utils.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\bin\Debug\net5.0\ToolBox.Utils.pdb
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.AssemblyInfo.cs
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ref\ToolBox.Utils.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.Utils\obj\Debug\net5.0\ToolBox.Utils.pdb

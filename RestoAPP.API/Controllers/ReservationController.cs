@@ -70,7 +70,7 @@ namespace RestoAPP.API.Controllers
                     string subject = "Votre réservation du " + reservation.DateDeRes.ToString("dd/MM/yyyy") + " est confirmée";
                     string content = "<div>" +
                         "Bonjour" +
-                        $"<p>Nous vous confirmons via cet email que réservation du {reservation.DateDeRes.ToString("dd / MM / yyyy")} pour {reservation.NbPers} persone(s)</p>" +
+                        $"<p>Nous vous confirmons via cet email la confirmation de votre réservation du {reservation.DateDeRes.ToString("dd / MM / yyyy")} pour {reservation.NbPers} personne(s)</p>" +
                         "<br>" +
                         "<p>Amicalement</p>" +
                         "<br>" +

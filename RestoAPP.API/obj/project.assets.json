@@ -5865,20 +5865,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeremy\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\RestoAPP.API.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Desktop\\WepApiResto\\RestoAPP.API\\RestoAPP.API.csproj",
       "projectName": "RestoAPP.API",
-      "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\RestoAPP.API.csproj",
-      "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.API\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\RestoAPP.API\\RestoAPP.API.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\RestoAPP.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5891,17 +5899,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj": {
-              "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\RestoAPP.DAL\\RestoAPP.DAL.csproj"
+            "C:\\Users\\Student\\Desktop\\WepApiResto\\RestoAPP.DAL\\RestoAPP.DAL.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\RestoAPP.DAL\\RestoAPP.DAL.csproj"
             },
-            "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj": {
-              "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj"
+            "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.AutoMapper\\ToolBox.AutoMapper.csproj"
             },
-            "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj": {
-              "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Security\\ToolBox.Security.csproj"
+            "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Security\\ToolBox.Security.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Security\\ToolBox.Security.csproj"
             },
-            "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj": {
-              "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj"
+            "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\ToolBox.Utils.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\ToolBox.Utils.csproj"
             }
           }
         }
@@ -5939,7 +5947,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

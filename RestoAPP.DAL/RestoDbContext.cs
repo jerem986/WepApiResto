@@ -20,8 +20,8 @@ namespace RestoAPP.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer("server=JEREMY-ALISON;initial catalog=Restaurant;integrated security=true");
-            optionsBuilder.UseSqlServer("Data Source=JEREMY-ALISON;initial catalog=Restaurant;Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Data Source=5235;User ID=sa;Password=formation;initial catalog=Restaurant;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            //optionsBuilder.UseSqlServer("Data Source=JEREMY-ALISON;initial catalog=Restaurant;Integrated Security=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder mb)

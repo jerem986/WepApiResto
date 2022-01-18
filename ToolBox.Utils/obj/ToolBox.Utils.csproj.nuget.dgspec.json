@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj": {}
+    "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\ToolBox.Utils.csproj": {}
   },
   "projects": {
-    "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj": {
+    "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\ToolBox.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\ToolBox.Utils.csproj",
         "projectName": "ToolBox.Utils",
-        "projectPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\ToolBox.Utils.csproj",
-        "packagesPath": "C:\\Users\\jeremy\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\jeremy\\Desktop\\11Makerhub\\WebApi\\RestoAPP.API\\ToolBox.Utils\\obj\\",
+        "projectPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\ToolBox.Utils.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\WepApiResto\\ToolBox.Utils\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

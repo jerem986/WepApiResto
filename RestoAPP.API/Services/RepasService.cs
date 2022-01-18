@@ -64,7 +64,7 @@ namespace RestoAPP.API.Services
             if (repas == null) return null;
             RepasDetailsDTO check = repas.MapTo<RepasDetailsDTO>( m=> {
                 m.categoryType = repas.Category.Type; // exemple pour pouvoir mapper plusieurs ligne de code à la suite
-                //m.categoryId = repas.CategoryId           ligne useless mais sert d'exemple de plusieurs ligne a mapper
+                //m.categoryId = repas.CategoryId          exemple de plusieurs ligne a mapper
             }); //autre méthode pour mapper avec le map auto mais same GetRepas 
             return check;
         }

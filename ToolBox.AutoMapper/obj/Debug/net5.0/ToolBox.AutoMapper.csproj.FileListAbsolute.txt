@@ -46,3 +46,15 @@ D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\De
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb
 D:\Users\jeremy\Desktop\11Makerhub\WebApi\RestoAPP.API\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.deps.json
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\bin\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\bin\Debug\net5.0\ToolBox.AutoMapper.pdb
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.AssemblyInfo.cs
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ref\ToolBox.AutoMapper.dll
+C:\Users\Student\Desktop\WepApiResto\ToolBox.AutoMapper\obj\Debug\net5.0\ToolBox.AutoMapper.pdb
